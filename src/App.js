@@ -3,6 +3,7 @@ import "./App.css";
 import Users from "./services/users";
 function App() {
   Users.getUsers();
+  Users.addUsers();
   return (
     <div className="App">
       <header className="App-header">

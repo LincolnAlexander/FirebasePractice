@@ -21,6 +21,14 @@ class Users {
     );
     doc.forEach((doc) => console.log(doc.data()));
   }
+
+  // async addUsers() {
+
+  //   await addDoc(collection(db, "Users"), {
+  //     name: "Lincoln",
+  //     male: true,
+  //   });
+  // }
 }
 
 export default new Users();
